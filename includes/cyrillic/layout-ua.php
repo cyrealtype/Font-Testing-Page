@@ -1,4 +1,4 @@
-<div style="width: 920px;" contenteditable="true">
+<div style="width: 1020px;" contenteditable="true">
 	<section lang="ua">
 	<p class="sizelabel">Heading 60px, Subhead 24px, Body 16px</p>
 	<p style="font-size: 60px;">Виявлено споріднене з Землею аномальне космічне тіло
