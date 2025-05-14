@@ -3,7 +3,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link type="text/css" href="css/styles-v11.css?rand=<?php echo rand(5,500)?>" rel="stylesheet" charset="utf-8" />
+<title>Font Testing Page - Cyrillic Version</title>
+<link type="text/css" href="css/styles-v9.css" rel="stylesheet" charset="utf-8" />
 <link type="text/css" href="css/print-v9.css" rel="stylesheet" media="print" charset="utf-8" />
 <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
 <script>localStorage.clear();</script>
@@ -44,26 +45,31 @@ $(document).ready(function(){
 	    <li><a href="#lettering">Lettering</a></li>
 	    <li><a href="#kern">Kern</a></li>
 	    <li><a href="#hinting">Hinting</a></li>
+	    <li><a href="#serbian">Serbian</a></li>
+	    <li><a href="#bulgarian">Bulgarian</a></li>
+	    <li><a href="#ukrainian">Ukrainian</a></li>
+	    <li><a href="#grids">Grids</a></li>
+	    <li><a href="#glyphset">Glyph Set</a></li>
 	  </ul>
 	
 	  <!-- Headlines (Content injected via constants-cyr.js) -->
 	  <div id="headlines">
 		<!-- <div style="white-space: nowrap; overflow: hidden; width: 920px;"> -->
-		<div style="white-space: nowrap; overflow: hidden; width: 1020px;"></div>
+		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>
 	  </div>
 	  
 	  <!-- Text (Content injected via constants-cyr.js) -->
-	  <div id="text" style="width: 1020px;">
+	  <div id="text" style="width: 920px;">
 			<div class="textsettingCol1"></div>
 			<div class="textsettingCol2"></div>
 	  </div>
 
 	  <!-- adhesion (Content injected via constants-cyr.js) -->
 	  <div id="adhesion">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 1020px;"></div>			
+	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>			
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
-			<div style="width: 1020px;">
+			<div style="width: 920px;">
 				<div class="textsettingCol1"></div>
 				<div class="textsettingCol2"></div>
 			</div>
@@ -71,10 +77,10 @@ $(document).ready(function(){
 
 	  <!-- hamburgefonstiv (Content injected via constants-cyr.js) -->
 	  <div id="hamburgefonstiv">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 1020px;" ></div>				
+	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;" ></div>				
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
-			<div style="width: 1020px;">
+			<div style="width: 920px;">
 				<div class="textsettingCol1"></div>
 				<div class="textsettingCol2"></div>
 			</div>
@@ -82,10 +88,10 @@ $(document).ready(function(){
 
 	  <!-- Lowercases a-z (Content injected via constants-cyr.js) -->
 	  <div id="lowercases">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 1020px;"></div>				
+	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>				
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
-			<div style="width: 1020px;">
+			<div style="width: 920px;">
 				<div class="textsettingCol1"></div>
 				<div class="textsettingCol2"></div>
 			</div>
@@ -93,17 +99,28 @@ $(document).ready(function(){
 
 	  <!-- Caps (Content injected via constants-cyr.js) -->
 	  <div id="caps">
-	  		<div style="width: 1020px;"></div>				
+	  		<div style="width: 920px;"></div>				
 	  </div>
 
 	  <!-- All Caps (Content injected via constants-cyr.js) -->
 	  <div id="allcaps">
-	  		<div style="width: 1020px;"></div>				
+	  		<div style="width: 920px;"></div>				
 	  </div>
 
 	  <!-- Layout -->
 	  <div id="layout">
 	  	<?php include("includes/cyrillic/layout.php"); ?>						
+	  </div>
+
+	  <!-- Layout Extra -->
+	  <div id="serbian">
+	  	<?php include("includes/cyrillic/layout-sr.php"); ?>						
+	  </div>
+	  <div id="bulgarian">
+	  	<?php include("includes/cyrillic/layout-bg.php"); ?>						
+	  </div>
+	  <div id="ukrainian">
+	  	<?php include("includes/cyrillic/layout-ua.php"); ?>						
 	  </div>
 
 	  <!-- Lettering Sheet -->
@@ -118,7 +135,7 @@ $(document).ready(function(){
 
 	  <!-- Hinting (Content injected via constants-cyr.js) -->
 	  <div id="hinting">
-	  		<div style="width: 1020px ;" contenteditable="true">
+	  		<div style="width: 920px;" contenteditable="true">
 				
 				<p class="sizelabel"><?php echo $_SERVER['HTTP_USER_AGENT'] ?></p><p>&nbsp;</p>
 				
@@ -147,6 +164,17 @@ $(document).ready(function(){
 
 	  		</div>
 	  </div>
+
+	  <!-- Grids Test -->
+  	  <div id="grids">
+	  	<?php include("includes/cyrillic/grids.php"); ?>						
+	  </div>
+
+	  <!-- Glyph Set Test Cyrillic Plus, Pro -->
+	  <div id="glyphset">
+	  	<?php include("includes/cyrillic/glyphset-pro.php"); ?>			
+	  </div>
+
 
 	</div><!-- end tabs -->
 
