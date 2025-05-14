@@ -55,11 +55,11 @@ $(document).ready(function(){
 	  <!-- Headlines (Content injected via constants-cyr.js) -->
 	  <div id="headlines">
 		<!-- <div style="white-space: nowrap; overflow: hidden; width: 920px;"> -->
-		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>
+		<div style="white-space: nowrap; overflow: hidden; width: 1020px;"></div>
 	  </div>
 	  
 	  <!-- Text (Content injected via constants-cyr.js) -->
-	  <div id="text" style="width: 920px;">
+	  <div id="text" style="width: 1020px;">
 			<div class="textsettingCol1"></div>
 			<div class="textsettingCol2"></div>
 	  </div>
