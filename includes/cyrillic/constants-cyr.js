@@ -87,10 +87,9 @@ var GRUMPIES = {
     }
 };
 
-var hintsCaps = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
-var hintsLower = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя.:;,";
-var hintsNumbers= "1234567890 @ &amp;!?#$€%";
-
+var hintsCaps = "АБВГҐДЂЕЁЄЖЗЅИІЇЙЈКЛЉМНЊОПРСТЋУЎФХЦЧЏШЩЪЫЬЭЮЯ";
+var hintsLower = "абвгґдђеёєжзѕиіїйјклљмнњопрстћуўфхцчџшщъыьэюя.:;,";
+var hintsNumbers= "1234567890 @ &amp;!№₽₴₸&#x058F;?#$€%";
 
 function eventTextLineChange(e) {
     var $this = $(this);
