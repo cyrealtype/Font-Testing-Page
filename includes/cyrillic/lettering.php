@@ -1,4 +1,4 @@
-<div contenteditable="true" style="width: 880px; text-align: center; padding: 20px 20px; font-feature-settings: 'locl';">
+<div contenteditable="true" style="width: 1020px; text-align: center; padding: 20px 20px; font-feature-settings: 'locl';">
 	
 	<p class="sizelabel">Lettering Sheet 72 points</p>
 	

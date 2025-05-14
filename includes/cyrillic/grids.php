@@ -1,4 +1,4 @@
-<div style="width: 920px;" contenteditable="true">
+<div style="width: 1020px;" contenteditable="true">
 <p class="sizelabel">22px</p>
 <p style="font-size: 22px;">
 a b c d e f g h i j k l m n o p q r s t u v w x y z a<br />
