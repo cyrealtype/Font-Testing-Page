@@ -54,7 +54,7 @@ $(document).ready(function(){
 	
 	  <!-- Headlines (Content injected via constants-cyr.js) -->
 	  <div id="headlines">
-		<!-- <div style="white-space: nowrap; overflow: hidden; width: 920px;"> -->
+		<!-- <div style="white-space: nowrap; overflow: hidden; width: 1020px;"> -->
 		<div style="white-space: nowrap; overflow: hidden; width: 1020px;"></div>
 	  </div>
 	  
@@ -66,7 +66,7 @@ $(document).ready(function(){
 
 	  <!-- adhesion (Content injected via constants-cyr.js) -->
 	  <div id="adhesion">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>			
+	  		<div style="white-space: nowrap; overflow: hidden; width: 1020px;"></div>			
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<div style="width: 1020px;">
@@ -77,7 +77,7 @@ $(document).ready(function(){
 
 	  <!-- hamburgefonstiv (Content injected via constants-cyr.js) -->
 	  <div id="hamburgefonstiv">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;" ></div>				
+	  		<div style="white-space: nowrap; overflow: hidden; width: 1020px;" ></div>				
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<div style="width: 1020px;">
@@ -88,7 +88,7 @@ $(document).ready(function(){
 
 	  <!-- Lowercases a-z (Content injected via constants-cyr.js) -->
 	  <div id="lowercases">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>				
+	  		<div style="white-space: nowrap; overflow: hidden; width: 1020px;"></div>				
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<div style="width: 1020px;">
@@ -135,7 +135,7 @@ $(document).ready(function(){
 
 	  <!-- Hinting (Content injected via constants-cyr.js) -->
 	  <div id="hinting">
-	  		<div style="width: 920px;" contenteditable="true">
+	  		<div style="width: 1020px;" contenteditable="true">
 				
 				<p class="sizelabel"><?php echo $_SERVER['HTTP_USER_AGENT'] ?></p><p>&nbsp;</p>
 				
