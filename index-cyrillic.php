@@ -69,7 +69,7 @@ $(document).ready(function(){
 	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>			
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
-			<div style="width: 920px;">
+			<div style="width: 1020px;">
 				<div class="textsettingCol1"></div>
 				<div class="textsettingCol2"></div>
 			</div>
@@ -80,7 +80,7 @@ $(document).ready(function(){
 	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;" ></div>				
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
-			<div style="width: 920px;">
+			<div style="width: 1020px;">
 				<div class="textsettingCol1"></div>
 				<div class="textsettingCol2"></div>
 			</div>
@@ -91,7 +91,7 @@ $(document).ready(function(){
 	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>				
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
-			<div style="width: 920px;">
+			<div style="width: 1020px;">
 				<div class="textsettingCol1"></div>
 				<div class="textsettingCol2"></div>
 			</div>
@@ -99,12 +99,12 @@ $(document).ready(function(){
 
 	  <!-- Caps (Content injected via constants-cyr.js) -->
 	  <div id="caps">
-	  		<div style="width: 920px;"></div>				
+	  		<div style="width: 1020px;"></div>				
 	  </div>
 
 	  <!-- All Caps (Content injected via constants-cyr.js) -->
 	  <div id="allcaps">
-	  		<div style="width: 920px;"></div>				
+	  		<div style="width: 1020px;"></div>				
 	  </div>
 
 	  <!-- Layout -->
