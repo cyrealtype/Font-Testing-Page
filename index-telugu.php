@@ -90,7 +90,7 @@ $(document).ready(function(){
 	  <div id="hinting">
 	  		<div style="width: 920px;" contenteditable="true">
 				
-				<p class="sizelabel"><?php echo $_SERVER['HTTP_USER_AGENT'] ?></p><p>&nbsp;</p>
+				<p class="sizelabel"><?php echo isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : 'User Agent Not Available'; ?></p><p>&nbsp;</p>
 				
 				<p class="sizelabel">48px</p>
 				<p class="hints-lower" style="font-size: 48px;"></p>

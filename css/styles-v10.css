@@ -16,25 +16,36 @@ section { display: block; float: left; margin: 0; padding: 0; width: 100%; }
 h1, h2, h3, h4 { font-family: arial, sans-serif; font-weight: normal; }
 ol { padding-left: 0px; list-style-position: inside; }
 
+* {
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  color: black;
+  margin: 0 auto;
+  padding: 0;
+}
+
 /*----------------------------------------------------------------------------------------------------
   Top
   ---------------------------------------------------------------------------------------------------*/
-#top { width: 960px; margin: 0 20px; padding: 0px; }
-header { margin: 0; padding: 0; background: #cccccc;}
+#top { width: 1100px; margin: 0 20px; padding: 0px;}
+header { margin: 0; padding: 0; background: #cccccc; border-radius: 8px 8px 8px 8px;}
 header h1 { margin: 0; padding: 40px 20px; }
 
 /* Font Selection */
-#fonts { width: 940px;margin: 0;  padding: 0 10px; top: 0px; left: 20px; position: fixed; background: #F8F8F8; border-bottom: 1px solid #ccc; }
+#fonts { width: 1080px;margin: 0;  padding: 0 10px; top: 0px; left: 20px; position: fixed; background: #F8F8F8; border-bottom: 1px solid #ccc; }
 #fonts li { display: inline; list-style: none; margin: 0 16px 0 0; padding: 0; cursor: pointer; }
 #fonts li.active { background: #CCCCCC; }
 
 /* OT Features Panel */
-#toggleotfeatures { float: left; width: 920px; margin: 0 20px; padding: 12px 20px; background-color: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
+#toggleotfeatures { float: left; width: 1100px; margin: 0 20px; padding: 12px 20px; background-color: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; border-radius: 8px 8px 8px 8px;}
 #toggleotfeatures a { color: #fff; text-decoration:none; text-shadow: 1px 1px 2px black; }
 #editions { float: right; }
 
 /* OT Panel (Features / Variations) */
-.otpanel { float: left; width: 960px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
+.otpanel { float: left; width: 1100px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; border-radius: 8px 8px 8px 8px;}
+#otvariations.otpanel {border-radius: 8px 8px 8px 8px;}
 .otpanel table td { padding: 4px 20px;}
 .csscode { margin: 0; padding: 0; font: normal 10px/10px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif; }
 
@@ -48,8 +59,9 @@ header h1 { margin: 0; padding: 40px 20px; }
 /* Navigation */
 ul.tabNavigation { width: 960px; overflow: hidden;	list-style: none; margin: 2px 20px; padding: 0; font: normal 15px/15px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
 ul.tabNavigation li { float: left; padding: 0; margin: 0; }
-ul.tabNavigation li a { display: block; padding: 7px 5px; margin: 2px 4px 2px 0px; color: #000; text-decoration: none; background-color: #ccc; }
-ul.tabNavigation li a.selected, ul.tabNavigation li a:hover { color: #fff; background-color: #333; }
+ul.tabNavigation li a { display: block; padding: 7px 5px; margin: 2px 4px 2px 0px; color: #000; text-decoration: none; border-radius: 8px; border: 1px solid gray; }
+ul.tabNavigation li a.selected { color: #fff; background-color: #333; }
+ul.tabNavigation li a:hover { color: #fff; background-color: #666; }
 ul.tabNavigation li a:focus { outline: 0; }
 
 /* Default Styles for all tabs */
